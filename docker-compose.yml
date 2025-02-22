@@ -20,7 +20,7 @@ services:
     environment:
       - "GF_AUTH_GITHUB_CLIENT_SECRET__FILE=/oauth_secret"
     ports:
-      - "3000:3000"
+      - "3091:3000"
 volumes:
   shion_pro_grafana_storage: {}
   shion_pro_prometheus_storage: {}
